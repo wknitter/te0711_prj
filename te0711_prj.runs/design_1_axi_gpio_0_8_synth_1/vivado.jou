@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr 20 12:00:25 2021
+# Process ID: 29395
+# Current directory: /home/parallels/te0711_prj/te0711_prj.runs/design_1_axi_gpio_0_8_synth_1
+# Command line: vivado -log design_1_axi_gpio_0_8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_8.tcl
+# Log file: /home/parallels/te0711_prj/te0711_prj.runs/design_1_axi_gpio_0_8_synth_1/design_1_axi_gpio_0_8.vds
+# Journal file: /home/parallels/te0711_prj/te0711_prj.runs/design_1_axi_gpio_0_8_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_8.tcl -notrace
