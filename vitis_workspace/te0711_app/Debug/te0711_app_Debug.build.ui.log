@@ -1,0 +1,21 @@
+2021-04-22T11:48:57.10464600255-11:48:57 **** Incremental Build of configuration Debug for project te0711_app ****
+000-make all 
+000-Building file: ../src/helloworld.c
+000-Invoking: MicroBlaze gcc compiler
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-Finished building: ../src/helloworld.c
+000- 
+000-Building target: te0711_app.elf
+000-Invoking: MicroBlaze gcc linker
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "te0711_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-Finished building target: te0711_app.elf
+000- 
+000-Invoking: MicroBlaze Print Size
+000-mb-size te0711_app.elf  |tee "te0711_app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  10136	    704	   2168	  13008	   32d0	te0711_app.elf
+000-Finished building: te0711_app.elf.size
+000- 
+00255-
+11:48:57 Build Finished (took 115ms)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="te0711_app-skip_rev_check"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="te0711_app-bitFile"/>
+	<item value="Local" key="xuartlite_polled_example_1-target"/>
+	<item value="Local" key="te0711_app-target"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="xuartlite_polled_example_1-bitFile"/>
+	<item value="bootloop" key="xuartlite_polled_example_1-microblaze_0-initElf"/>
+	<item value="Auto Detect" key="te0711_app-device"/>
+	<item value="_ide/bitstream/design_1_wrapper.mmi" key="te0711_app-bmmFile"/>
+	<item value="false" key="xuartlite_polled_example_1-partial_bit"/>
+	<item value="te0711_app" key="programfpga.sdxproject"/>
+	<item value="_ide/bitstream/design_1_wrapper.mmi" key="xuartlite_polled_example_1-bmmFile"/>
+	<item value="false" key="xuartlite_polled_example_1-skip_rev_check"/>
+	<item value="Auto Detect" key="xuartlite_polled_example_1-device"/>
+	<item value="bootloop" key="te0711_app-microblaze_0-initElf"/>
+	<item value="false" key="te0711_app-partial_bit"/>
+</section>

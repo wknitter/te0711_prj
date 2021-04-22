@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="te0711_pltfrm"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+te0711_pltfrm
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="te0711_pltfrm">
+        <sdx:configuration sdx:name="te0711_pltfrm"
+                           sdx:displayName="te0711_pltfrm"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>te0711_pltfrm</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="te0711_pltfrm/boot/te0711_pltfrm.bif"
+                            sdx:readme="te0711_pltfrm/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="te0711_pltfrm/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="te0711_pltfrm/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="te0711_pltfrm/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

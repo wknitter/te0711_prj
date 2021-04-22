@@ -1,0 +1,23 @@
+Nothing to build in platform 'te0711_pltfrm'
+
+11:48:57 **** Incremental Build of configuration Debug for project te0711_app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: te0711_app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "te0711_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: te0711_app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size te0711_app.elf  |tee "te0711_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10136	    704	   2168	  13008	   32d0	te0711_app.elf
+Finished building: te0711_app.elf.size
+ 
+11:48:57 **** Incremental Build of configuration Debug for project te0711_app_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.

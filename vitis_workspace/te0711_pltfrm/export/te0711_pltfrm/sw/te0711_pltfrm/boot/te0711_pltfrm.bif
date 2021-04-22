@@ -1,0 +1,6 @@
+/*te0711_pltfrm*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}
