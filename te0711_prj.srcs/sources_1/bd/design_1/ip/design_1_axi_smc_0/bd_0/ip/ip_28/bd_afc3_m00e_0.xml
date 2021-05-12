@@ -338,7 +338,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI.FREQ_HZ">100000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI.FREQ_HZ">50000000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -356,7 +356,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>ADDR_WIDTH</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI.ADDR_WIDTH">16</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI.ADDR_WIDTH">14</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -972,7 +972,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI.FREQ_HZ">100000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI.FREQ_HZ">50000000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -990,7 +990,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>ADDR_WIDTH</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI.ADDR_WIDTH">16</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI.ADDR_WIDTH">14</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -1254,7 +1254,7 @@
           <spirit:name>FREQ_HZ</spirit:name>
           <spirit:displayName>aclk frequency</spirit:displayName>
           <spirit:description>aclk frequency</spirit:description>
-          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.CLK.FREQ_HZ" spirit:minimum="1" spirit:maximum="1000000000" spirit:rangeType="long">100000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.CLK.FREQ_HZ" spirit:minimum="1" spirit:maximum="1000000000" spirit:rangeType="long">50000000</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PHASE</spirit:name>
@@ -1371,7 +1371,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:cd028b73</spirit:value>
+            <spirit:value>9:8aa76e51</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1382,7 +1382,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:cd028b73</spirit:value>
+            <spirit:value>9:8aa76e51</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1398,11 +1398,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 21 23:47:28 UTC 2021</spirit:value>
+            <spirit:value>Wed May 12 15:42:00 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:cd028b73</spirit:value>
+            <spirit:value>9:8aa76e51</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1425,7 +1425,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:cdc0e844</spirit:value>
+            <spirit:value>9:55e01aeb</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1441,11 +1441,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 21 23:47:28 UTC 2021</spirit:value>
+            <spirit:value>Wed May 12 15:42:00 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:cdc0e844</spirit:value>
+            <spirit:value>9:55e01aeb</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1535,7 +1535,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">13</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -2056,7 +2056,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">13</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -2471,7 +2471,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">13</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -3040,7 +3040,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;)) - 1)">13</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -3570,7 +3570,7 @@
       <spirit:modelParameter spirit:dataType="long">
         <spirit:name>C_ADDR_WIDTH</spirit:name>
         <spirit:displayName>C_ADDR_WIDTH</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ADDR_WIDTH" spirit:minimum="1" spirit:maximum="64" spirit:rangeType="long">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ADDR_WIDTH" spirit:minimum="1" spirit:maximum="64" spirit:rangeType="long">14</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="long">
         <spirit:name>C_M_PROTOCOL</spirit:name>
@@ -3839,7 +3839,7 @@
     <spirit:parameter>
       <spirit:name>ADDR_WIDTH</spirit:name>
       <spirit:displayName>ADDR_WIDTH</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ADDR_WIDTH" spirit:order="21" spirit:minimum="1" spirit:maximum="64" spirit:rangeType="long">16</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ADDR_WIDTH" spirit:order="21" spirit:minimum="1" spirit:maximum="64" spirit:rangeType="long">14</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>M_PROTOCOL</spirit:name>

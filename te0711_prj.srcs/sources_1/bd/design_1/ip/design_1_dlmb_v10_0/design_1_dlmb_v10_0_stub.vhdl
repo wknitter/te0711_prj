@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Tue Apr 20 11:57:17 2021
+-- Date        : Wed May 12 11:42:55 2021
 -- Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/parallels/te0711_prj/te0711_prj.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0_stub.vhdl

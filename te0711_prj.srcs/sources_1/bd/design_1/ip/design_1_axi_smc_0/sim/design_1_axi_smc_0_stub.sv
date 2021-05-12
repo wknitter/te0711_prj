@@ -114,7 +114,7 @@ module design_1_axi_smc_0 (
   output bit_as_bool S01_AXI_rlast,
   output bit_as_bool S01_AXI_rvalid,
   input bit_as_bool S01_AXI_rready,
-  output bit [15 : 0] M00_AXI_awaddr,
+  output bit [13 : 0] M00_AXI_awaddr,
   output bit [7 : 0] M00_AXI_awlen,
   output bit [2 : 0] M00_AXI_awsize,
   output bit [1 : 0] M00_AXI_awburst,
@@ -132,7 +132,7 @@ module design_1_axi_smc_0 (
   input bit [1 : 0] M00_AXI_bresp,
   input bit_as_bool M00_AXI_bvalid,
   output bit_as_bool M00_AXI_bready,
-  output bit [15 : 0] M00_AXI_araddr,
+  output bit [13 : 0] M00_AXI_araddr,
   output bit [7 : 0] M00_AXI_arlen,
   output bit [2 : 0] M00_AXI_arsize,
   output bit [1 : 0] M00_AXI_arburst,
@@ -206,7 +206,7 @@ module design_1_axi_smc_0 (aclk,aresetn,S00_AXI_awaddr,S00_AXI_awlen,S00_AXI_aws
   output wire S01_AXI_rlast;
   output wire S01_AXI_rvalid;
   input bit S01_AXI_rready;
-  output wire [15 : 0] M00_AXI_awaddr;
+  output wire [13 : 0] M00_AXI_awaddr;
   output wire [7 : 0] M00_AXI_awlen;
   output wire [2 : 0] M00_AXI_awsize;
   output wire [1 : 0] M00_AXI_awburst;
@@ -224,7 +224,7 @@ module design_1_axi_smc_0 (aclk,aresetn,S00_AXI_awaddr,S00_AXI_awlen,S00_AXI_aws
   input bit [1 : 0] M00_AXI_bresp;
   input bit M00_AXI_bvalid;
   output wire M00_AXI_bready;
-  output wire [15 : 0] M00_AXI_araddr;
+  output wire [13 : 0] M00_AXI_araddr;
   output wire [7 : 0] M00_AXI_arlen;
   output wire [2 : 0] M00_AXI_arsize;
   output wire [1 : 0] M00_AXI_arburst;
@@ -295,7 +295,7 @@ module design_1_axi_smc_0 (aclk,aresetn,S00_AXI_awaddr,S00_AXI_awlen,S00_AXI_aws
   output wire S01_AXI_rlast;
   output wire S01_AXI_rvalid;
   input bit S01_AXI_rready;
-  output wire [15 : 0] M00_AXI_awaddr;
+  output wire [13 : 0] M00_AXI_awaddr;
   output wire [7 : 0] M00_AXI_awlen;
   output wire [2 : 0] M00_AXI_awsize;
   output wire [1 : 0] M00_AXI_awburst;
@@ -313,7 +313,7 @@ module design_1_axi_smc_0 (aclk,aresetn,S00_AXI_awaddr,S00_AXI_awlen,S00_AXI_aws
   input bit [1 : 0] M00_AXI_bresp;
   input bit M00_AXI_bvalid;
   output wire M00_AXI_bready;
-  output wire [15 : 0] M00_AXI_araddr;
+  output wire [13 : 0] M00_AXI_araddr;
   output wire [7 : 0] M00_AXI_arlen;
   output wire [2 : 0] M00_AXI_arsize;
   output wire [1 : 0] M00_AXI_arburst;

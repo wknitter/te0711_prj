@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-// Date        : Wed Apr 21 17:21:18 2021
+// Date        : Wed Apr 21 17:27:37 2021
 // Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
 // Command     : write_verilog -force -mode synth_stub -rename_top design_1_axi_bram_ctrl_0_bram_1 -prefix
 //               design_1_axi_bram_ctrl_0_bram_1_ design_1_axi_bram_ctrl_0_bram_1_stub.v

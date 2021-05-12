@@ -17,7 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param chipscope.maxJobs 2
 create_project -in_memory -part xc7a35tcsg324-2
 
 set_param project.singleFileAddWarning.threshold 0
@@ -32,6 +31,9 @@ set_property target_language Verilog [current_project]
 set_property board_part trenz.biz:te0711_35_2c:part0:1.0 [current_project]
 set_property ip_output_repo /home/parallels/te0711_prj/te0711_prj.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
+add_files /home/parallels/te0711_prj/vitis_workspace/te0711_app/Debug/te0711_app.elf
+set_property SCOPED_TO_REF design_1 [get_files -all /home/parallels/te0711_prj/vitis_workspace/te0711_app/Debug/te0711_app.elf]
+set_property SCOPED_TO_CELLS microblaze_0 [get_files -all /home/parallels/te0711_prj/vitis_workspace/te0711_app/Debug/te0711_app.elf]
 read_verilog -library xil_defaultlib /home/parallels/te0711_prj/te0711_prj.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
 add_files /home/parallels/te0711_prj/te0711_prj.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all /home/parallels/te0711_prj/te0711_prj.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc]

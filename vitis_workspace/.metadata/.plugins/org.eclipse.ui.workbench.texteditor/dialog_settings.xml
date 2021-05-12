@@ -2,20 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="UART_BAUDRATE" key="selection"/>
+		<item value="flash_get_srec_line" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="UART_BAUDRATE"/>
-			<item value="8_DATA_BITS"/>
-			<item value="XUN_LCR_8_DATA_BITS"/>
-			<item value="RecvBuffer"/>
-			<item value="UARTLITE"/>
-			<item value="num_char"/>
-			<item value="UART_DEVICEID"/>
-			<item value="UART_BASEADDR"/>
+			<item value="flash_get_srec_line"/>
+			<item value="2"/>
+			<item value="20656"/>
+			<item value="1291"/>
+			<item value="mode_fault"/>
+			<item value="modef"/>
+			<item value="mode"/>
+			<item value="00c0"/>
+			<item value="spi"/>
+			<item value="0x44A00000U"/>
+			<item value="XPAR_AXI_QUAD_SPI_0"/>
+			<item value="XPAR_AXI_QUAD_SPI_0_DEVICE_ID"/>
+			<item value="AXI_QUAD_SPI_"/>
+			<item value="AXI_QUAD_SPI_1"/>
+			<item value="quad"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -24,7 +31,7 @@
 		<item value="344" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="440" key="DIALOG_HEIGHT"/>
-		<item value="1253" key="DIALOG_X_ORIGIN"/>
-		<item value="302" key="DIALOG_Y_ORIGIN"/>
+		<item value="1453" key="DIALOG_X_ORIGIN"/>
+		<item value="292" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -67,6 +67,8 @@
                                     								
                                 </option>
                                 								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.1880738993" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value=" " valueType="string"/>
+                                								
                                 <inputType id="xilinx.gnu.compiler.input.1511925876" name="C source files" superClass="xilinx.gnu.compiler.input"/>
                                 							
                             </tool>
@@ -90,6 +92,8 @@
                                     <listOptionValue builtIn="false" value="${resolvePlatformFile:project=te0711_app,fileType=bspInclude}"/>
                                     								
                                 </option>
+                                								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.238641188" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value=" " valueType="string"/>
                                 							
                             </tool>
                             							
@@ -114,6 +118,8 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.1687668484" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								
@@ -150,6 +156,8 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.351653439" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								
@@ -235,6 +243,8 @@
                                     								
                                 </option>
                                 								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.1686400771" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value=" " valueType="string"/>
+                                								
                                 <inputType id="xilinx.gnu.compiler.input.1707396543" name="C source files" superClass="xilinx.gnu.compiler.input"/>
                                 							
                             </tool>
@@ -258,6 +268,8 @@
                                     <listOptionValue builtIn="false" value="${resolvePlatformFile:project=te0711_app,fileType=bspInclude}"/>
                                     								
                                 </option>
+                                								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.165605155" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value=" " valueType="string"/>
                                 							
                             </tool>
                             							
@@ -282,6 +294,8 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.932234657" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								
@@ -318,6 +332,8 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.554233541" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								

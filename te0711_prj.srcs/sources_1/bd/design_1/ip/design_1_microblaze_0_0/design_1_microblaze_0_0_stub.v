@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-// Date        : Wed Apr 21 17:21:20 2021
+// Date        : Wed May 12 11:44:28 2021
 // Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
-// Command     : write_verilog -force -mode synth_stub -rename_top design_1_microblaze_0_0 -prefix
-//               design_1_microblaze_0_0_ design_1_microblaze_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub
+//               /home/parallels/te0711_prj/te0711_prj.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0_stub.v
 // Design      : design_1_microblaze_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a35tcsg324-2

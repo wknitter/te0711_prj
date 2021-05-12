@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Tue Apr 20 11:58:35 2021
+-- Date        : Wed May 12 11:42:56 2021
 -- Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode funcsim
 --               /home/parallels/te0711_prj/te0711_prj.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_sim_netlist.vhdl
@@ -84,7 +84,7 @@ mmcm_adv_inst: unisim.vcomponents.MMCME2_ADV
       CLKFBOUT_USE_FINE_PS => false,
       CLKIN1_PERIOD => 10.000000,
       CLKIN2_PERIOD => 0.000000,
-      CLKOUT0_DIVIDE_F => 10.000000,
+      CLKOUT0_DIVIDE_F => 20.000000,
       CLKOUT0_DUTY_CYCLE => 0.500000,
       CLKOUT0_PHASE => 0.000000,
       CLKOUT0_USE_FINE_PS => false,

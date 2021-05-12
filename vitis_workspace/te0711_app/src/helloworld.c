@@ -85,7 +85,10 @@ int main()
 {
     init_platform();
 
-    xil_printf("Hello World\n\r");
+//    while(1){
+//    	for(int i=0;i<3000000;i++){};
+//    	xil_printf("Hello World\n\r");
+//    }
 
 	/* Configure the uartlite interface */
     Configure_uart();
@@ -94,10 +97,6 @@ int main()
     u8 EscChar[1];
 
     EscChar[0] = CHAR_ESC;
-
-    RecvChar[0] = 0x77;
-    XUartLite_Send(&UartLite, RecvChar, 1);
-
 	RecvChar[0] = CHAR_NULL;
 
 	unsigned int ReceivedCount = 0;
@@ -110,6 +109,9 @@ int main()
 		ReceivedCount = XUartLite_Recv(&UartLite, RecvChar, 1);
 		if (ReceivedCount != 0){
 			XUartLite_Send(&UartLite, RecvChar, 1);
+		} else {
+			xil_printf("Hello TE0711\n\r");
+			for(int i=0;i<3000000;i++){};
 		}
 	}
 

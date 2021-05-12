@@ -3,16 +3,23 @@
 	<item value="false" key="te0711_app-skip_rev_check"/>
 	<item value="_ide/bitstream/design_1_wrapper.bit" key="te0711_app-bitFile"/>
 	<item value="Local" key="xuartlite_polled_example_1-target"/>
+	<item value="/home/parallels/te0711_prj/vitis_workspace/qspi_bootloader_app/Debug/qspi_bootloader_app.elf" key="qspi_bootloader_app-microblaze_0-initElf"/>
 	<item value="Local" key="te0711_app-target"/>
 	<item value="_ide/bitstream/design_1_wrapper.bit" key="xuartlite_polled_example_1-bitFile"/>
 	<item value="bootloop" key="xuartlite_polled_example_1-microblaze_0-initElf"/>
+	<item value="Local" key="qspi_bootloader_app-target"/>
 	<item value="Auto Detect" key="te0711_app-device"/>
 	<item value="_ide/bitstream/design_1_wrapper.mmi" key="te0711_app-bmmFile"/>
 	<item value="false" key="xuartlite_polled_example_1-partial_bit"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="qspi_bootloader_app-bitFile"/>
 	<item value="te0711_app" key="programfpga.sdxproject"/>
+	<item value="false" key="qspi_bootloader_app-skip_rev_check"/>
+	<item value="false" key="qspi_bootloader_app-partial_bit"/>
 	<item value="_ide/bitstream/design_1_wrapper.mmi" key="xuartlite_polled_example_1-bmmFile"/>
 	<item value="false" key="xuartlite_polled_example_1-skip_rev_check"/>
 	<item value="Auto Detect" key="xuartlite_polled_example_1-device"/>
 	<item value="bootloop" key="te0711_app-microblaze_0-initElf"/>
 	<item value="false" key="te0711_app-partial_bit"/>
+	<item value="Auto Detect" key="qspi_bootloader_app-device"/>
+	<item value="_ide/bitstream/design_1_wrapper.mmi" key="qspi_bootloader_app-bmmFile"/>
 </section>

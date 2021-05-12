@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-//Date        : Wed Apr 21 18:47:24 2021
+//Date        : Wed May 12 11:41:55 2021
 //Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -1078,7 +1078,7 @@ module JM3_imp_JAWCFF
         .s_axi_wvalid(microblaze_0_axi_periph_M11_AXI_WVALID));
 endmodule
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=46,numReposBlks=27,numNonXlnxBlks=0,numHierBlks=19,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=17,da_board_cnt=4,da_bram_cntlr_cnt=4,da_clkrst_cnt=1,da_mb_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=47,numReposBlks=28,numNonXlnxBlks=0,numHierBlks=19,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=18,da_board_cnt=5,da_bram_cntlr_cnt=4,da_clkrst_cnt=1,da_mb_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (LEDS_tri_o,
     p1a_tri_i,
@@ -1178,14 +1178,14 @@ module design_1
   wire JM1_interrupt;
   wire JM1_uart0_RxD;
   wire JM1_uart0_TxD;
-  wire [15:0]axi_bram_ctrl_0_BRAM_PORTA_ADDR;
+  wire [13:0]axi_bram_ctrl_0_BRAM_PORTA_ADDR;
   wire axi_bram_ctrl_0_BRAM_PORTA_CLK;
   wire [31:0]axi_bram_ctrl_0_BRAM_PORTA_DIN;
   wire [31:0]axi_bram_ctrl_0_BRAM_PORTA_DOUT;
   wire axi_bram_ctrl_0_BRAM_PORTA_EN;
   wire axi_bram_ctrl_0_BRAM_PORTA_RST;
   wire [3:0]axi_bram_ctrl_0_BRAM_PORTA_WE;
-  wire [15:0]axi_bram_ctrl_0_BRAM_PORTB_ADDR;
+  wire [13:0]axi_bram_ctrl_0_BRAM_PORTB_ADDR;
   wire axi_bram_ctrl_0_BRAM_PORTB_CLK;
   wire [31:0]axi_bram_ctrl_0_BRAM_PORTB_DIN;
   wire [31:0]axi_bram_ctrl_0_BRAM_PORTB_DOUT;
@@ -1236,7 +1236,7 @@ module design_1
   wire [0:0]axi_quad_spi_0_SPI_0_SS_O;
   wire axi_quad_spi_0_SPI_0_SS_T;
   wire axi_quad_spi_0_ip2intc_irpt;
-  wire [15:0]axi_smc_M00_AXI_ARADDR;
+  wire [13:0]axi_smc_M00_AXI_ARADDR;
   wire [1:0]axi_smc_M00_AXI_ARBURST;
   wire [3:0]axi_smc_M00_AXI_ARCACHE;
   wire [7:0]axi_smc_M00_AXI_ARLEN;
@@ -1245,7 +1245,7 @@ module design_1
   wire axi_smc_M00_AXI_ARREADY;
   wire [2:0]axi_smc_M00_AXI_ARSIZE;
   wire axi_smc_M00_AXI_ARVALID;
-  wire [15:0]axi_smc_M00_AXI_AWADDR;
+  wire [13:0]axi_smc_M00_AXI_AWADDR;
   wire [1:0]axi_smc_M00_AXI_AWBURST;
   wire [3:0]axi_smc_M00_AXI_AWCACHE;
   wire [7:0]axi_smc_M00_AXI_AWLEN;
@@ -1595,6 +1595,7 @@ module design_1
   wire rst_clk_wiz_1_100M_mb_reset;
   wire [0:0]rst_clk_wiz_1_100M_peripheral_aresetn;
   wire sys_clock_1;
+  wire [0:0]xlconstant_0_dout;
 
   assign JM1_uart0_RxD = uart0_rxd;
   assign LEDS_tri_o[2:0] = axi_gpio_0_GPIO_TRI_O;
@@ -1924,8 +1925,8 @@ module design_1
         .s_axi_wstrb(axi_smc_M00_AXI_WSTRB),
         .s_axi_wvalid(axi_smc_M00_AXI_WVALID));
   design_1_axi_bram_ctrl_0_bram_1 axi_bram_ctrl_0_bram
-       (.addra({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,axi_bram_ctrl_0_BRAM_PORTA_ADDR}),
-        .addrb({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,axi_bram_ctrl_0_BRAM_PORTB_ADDR}),
+       (.addra({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,axi_bram_ctrl_0_BRAM_PORTA_ADDR}),
+        .addrb({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,axi_bram_ctrl_0_BRAM_PORTB_ADDR}),
         .clka(axi_bram_ctrl_0_BRAM_PORTA_CLK),
         .clkb(axi_bram_ctrl_0_BRAM_PORTB_CLK),
         .dina(axi_bram_ctrl_0_BRAM_PORTA_DIN),
@@ -2061,7 +2062,7 @@ module design_1
        (.clk_in1(sys_clock_1),
         .clk_out1(microblaze_0_Clk),
         .locked(clk_wiz_1_locked),
-        .reset(reset_1));
+        .reset(xlconstant_0_dout));
   design_1_mdm_1_0 mdm_1
        (.Dbg_Capture_0(microblaze_0_debug_CAPTURE),
         .Dbg_Clk_0(microblaze_0_debug_CLK),
@@ -2516,6 +2517,8 @@ module design_1
         .mb_reset(rst_clk_wiz_1_100M_mb_reset),
         .peripheral_aresetn(rst_clk_wiz_1_100M_peripheral_aresetn),
         .slowest_sync_clk(microblaze_0_Clk));
+  design_1_xlconstant_0_0 xlconstant_0
+       (.dout(xlconstant_0_dout));
 endmodule
 
 module design_1_microblaze_0_axi_periph_0

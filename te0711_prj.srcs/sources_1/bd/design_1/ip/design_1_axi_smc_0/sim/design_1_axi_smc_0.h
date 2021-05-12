@@ -126,7 +126,7 @@ public:
   sc_core::sc_out< bool > S01_AXI_rlast;
   sc_core::sc_out< bool > S01_AXI_rvalid;
   sc_core::sc_in< bool > S01_AXI_rready;
-  sc_core::sc_out< sc_dt::sc_bv<16> > M00_AXI_awaddr;
+  sc_core::sc_out< sc_dt::sc_bv<14> > M00_AXI_awaddr;
   sc_core::sc_out< sc_dt::sc_bv<8> > M00_AXI_awlen;
   sc_core::sc_out< sc_dt::sc_bv<3> > M00_AXI_awsize;
   sc_core::sc_out< sc_dt::sc_bv<2> > M00_AXI_awburst;
@@ -144,7 +144,7 @@ public:
   sc_core::sc_in< sc_dt::sc_bv<2> > M00_AXI_bresp;
   sc_core::sc_in< bool > M00_AXI_bvalid;
   sc_core::sc_out< bool > M00_AXI_bready;
-  sc_core::sc_out< sc_dt::sc_bv<16> > M00_AXI_araddr;
+  sc_core::sc_out< sc_dt::sc_bv<14> > M00_AXI_araddr;
   sc_core::sc_out< sc_dt::sc_bv<8> > M00_AXI_arlen;
   sc_core::sc_out< sc_dt::sc_bv<3> > M00_AXI_arsize;
   sc_core::sc_out< sc_dt::sc_bv<2> > M00_AXI_arburst;
@@ -176,7 +176,7 @@ private:
   xsc::common::vectorN2scalar_converter<1>* mp_S01_AXI_arlock_converter;
   sc_signal< bool > m_S01_AXI_arlock_converter_signal;
   sc_signal< bool > m_S01_AXI_transactor_rst_signal;
-  xtlm::xaximm_xtlm2pin_t<32,16,1,1,1,1,1,1>* mp_M00_AXI_transactor;
+  xtlm::xaximm_xtlm2pin_t<32,14,1,1,1,1,1,1>* mp_M00_AXI_transactor;
   xsc::common::scalar2vectorN_converter<1>* mp_M00_AXI_awlock_converter;
   sc_signal< bool > m_M00_AXI_awlock_converter_signal;
   xsc::common::scalar2vectorN_converter<1>* mp_M00_AXI_arlock_converter;

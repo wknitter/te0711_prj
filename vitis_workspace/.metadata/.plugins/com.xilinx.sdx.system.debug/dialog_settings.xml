@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0x00000000" key="te0711_app_system-offSet"/>
+	<item value="Local" key="te0711_app-target"/>
+	<item value="Local" key="qspi_bootloader_app-target"/>
+	<item value="true" key="te0711_app-verifyFlash"/>
+	<item value="false" key="qspi_bootloader_app-blankCheck"/>
+	<item value="false" key="te0711_app-blankCheck"/>
+	<item value="/home/parallels/te0711_prj/vitis_workspace/te0711_app/Debug/te0711_app.elf" key="te0711_app-imgFile"/>
+	<item value="false" key="te0711_app_system-blankCheck"/>
+	<item value="" key="te0711_app-fsblFile"/>
+	<item value="Auto Detect" key="qspi_bootloader_app-device"/>
+	<item value="true" key="te0711_app_system-verifyFlash"/>
+	<item value="" key="qspi_bootloader_app-fsblFile"/>
+	<item value="0x00600000" key="te0711_app-offSet"/>
+	<item value="te0711_app" key="programflash.hwplatform"/>
+	<item value="s25fl256sxxxxxx0-spi-x1_x2_x4" key="te0711_app-flashType"/>
+	<item value="/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/bitstream/design_1_wrapper.bit" key="te0711_app_system-imgFile"/>
+	<item value="Auto Detect" key="te0711_app-device"/>
+	<item value="s25fl256sxxxxxx0-spi-x1_x2_x4" key="qspi_bootloader_app-flashType"/>
+	<item value="/home/parallels/te0711_prj/vitis_workspace/qspi_bootloader_app/_ide/bitstream/download.bit" key="qspi_bootloader_app-imgFile"/>
+	<item value="Auto Detect" key="te0711_app_system-device"/>
+	<item value="true" key="qspi_bootloader_app-verifyFlash"/>
+	<item value="0x00000000" key="qspi_bootloader_app-offSet"/>
+	<item value="s25fl256sxxxxxx0-spi-x1_x2_x4" key="te0711_app_system-flashType"/>
+	<item value="" key="te0711_app_system-fsblFile"/>
+	<item value="Local" key="te0711_app_system-target"/>
+</section>

@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
--- Date        : Wed Apr 21 18:48:13 2021
+-- Date        : Wed May 12 11:43:39 2021
 -- Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
 -- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_ilmb_bram_if_cntlr_0 -prefix
 --               design_1_ilmb_bram_if_cntlr_0_ design_1_dlmb_bram_if_cntlr_0_stub.vhdl

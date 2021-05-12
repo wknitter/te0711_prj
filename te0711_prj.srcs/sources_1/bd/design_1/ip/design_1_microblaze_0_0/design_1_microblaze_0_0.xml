@@ -35,7 +35,7 @@
           <spirit:name>FREQ_HZ</spirit:name>
           <spirit:displayName>Clk frequency</spirit:displayName>
           <spirit:description>Clk frequency</spirit:description>
-          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.CLK.CLK.FREQ_HZ">100000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.CLK.CLK.FREQ_HZ">50000000</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PHASE</spirit:name>
@@ -1015,7 +1015,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_DP.FREQ_HZ">100000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_DP.FREQ_HZ">50000000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -8579,7 +8579,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_DC.FREQ_HZ">100000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_DC.FREQ_HZ">50000000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -10861,7 +10861,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_IC.FREQ_HZ">100000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI_IC.FREQ_HZ">50000000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -13848,7 +13848,7 @@
         <spirit:addressBlock>
           <spirit:name>microblaze_0</spirit:name>
           <spirit:baseAddress spirit:format="long">0</spirit:baseAddress>
-          <spirit:range spirit:format="long">16384</spirit:range>
+          <spirit:range spirit:format="long">65536</spirit:range>
           <spirit:width spirit:format="long">32</spirit:width>
           <spirit:parameters>
             <spirit:parameter>
@@ -13880,7 +13880,7 @@
         <spirit:addressBlock>
           <spirit:name>microblaze_1</spirit:name>
           <spirit:baseAddress spirit:format="long">0</spirit:baseAddress>
-          <spirit:range spirit:format="long">16384</spirit:range>
+          <spirit:range spirit:format="long">65536</spirit:range>
           <spirit:width spirit:format="long">32</spirit:width>
           <spirit:parameters>
             <spirit:parameter>
@@ -13912,7 +13912,7 @@
         <spirit:addressBlock>
           <spirit:name>microblaze_2</spirit:name>
           <spirit:baseAddress spirit:format="long">3221225472</spirit:baseAddress>
-          <spirit:range spirit:format="long">65536</spirit:range>
+          <spirit:range spirit:format="long">16384</spirit:range>
           <spirit:width spirit:format="long">32</spirit:width>
           <spirit:parameters>
             <spirit:parameter>
@@ -13944,7 +13944,7 @@
         <spirit:addressBlock>
           <spirit:name>microblaze_3</spirit:name>
           <spirit:baseAddress spirit:format="long">3221225472</spirit:baseAddress>
-          <spirit:range spirit:format="long">65536</spirit:range>
+          <spirit:range spirit:format="long">16384</spirit:range>
           <spirit:width spirit:format="long">32</spirit:width>
           <spirit:parameters>
             <spirit:parameter>
@@ -14000,24 +14000,6 @@
   <spirit:model>
     <spirit:views>
       <spirit:view>
-        <spirit:name>xilinx_externalfiles</spirit:name>
-        <spirit:displayName>External Files</spirit:displayName>
-        <spirit:envIdentifier>:vivado.xilinx.com:external.files</spirit:envIdentifier>
-        <spirit:fileSetRef>
-          <spirit:localName>xilinx_externalfiles_view_fileset</spirit:localName>
-        </spirit:fileSetRef>
-        <spirit:parameters>
-          <spirit:parameter>
-            <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 21 23:47:29 UTC 2021</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
-            <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a2a6c68f</spirit:value>
-          </spirit:parameter>
-        </spirit:parameters>
-      </spirit:view>
-      <spirit:view>
         <spirit:name>xilinx_vhdlsynthesis</spirit:name>
         <spirit:displayName>VHDL Synthesis</spirit:displayName>
         <spirit:envIdentifier>vhdlSource:vivado.xilinx.com:synthesis</spirit:envIdentifier>
@@ -14033,7 +14015,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:433e5c7f</spirit:value>
+            <spirit:value>9:e1ccce68</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14047,11 +14029,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 21 23:47:25 UTC 2021</spirit:value>
+            <spirit:value>Wed May 12 15:41:56 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:433e5c7f</spirit:value>
+            <spirit:value>9:e1ccce68</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14067,11 +14049,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 21 23:47:25 UTC 2021</spirit:value>
+            <spirit:value>Wed May 12 15:41:56 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:433e5c7f</spirit:value>
+            <spirit:value>9:e1ccce68</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14091,7 +14073,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:f7c0f055</spirit:value>
+            <spirit:value>9:0d9e91e0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -14107,11 +14089,29 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 21 23:47:25 UTC 2021</spirit:value>
+            <spirit:value>Wed May 12 15:41:56 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:f7c0f055</spirit:value>
+            <spirit:value>9:0d9e91e0</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_externalfiles</spirit:name>
+        <spirit:displayName>External Files</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:external.files</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_externalfiles_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Wed May 12 15:44:30 UTC 2021</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:e1ccce68</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -24209,7 +24209,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_FREQ</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_FREQ">100000000</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_FREQ">50000000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_USE_CONFIG_RESET</spirit:name>
@@ -24917,7 +24917,7 @@
       <spirit:modelParameter spirit:dataType="std_logic_vector">
         <spirit:name>C_ICACHE_HIGHADDR</spirit:name>
         <spirit:displayName>High Address</spirit:displayName>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ICACHE_HIGHADDR" spirit:bitStringLength="64">0x00000000c000ffff</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ICACHE_HIGHADDR" spirit:bitStringLength="64">0x00000000c0003fff</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_USE_ICACHE</spirit:name>
@@ -24931,7 +24931,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_ADDR_TAG_BITS</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ADDR_TAG_BITS" spirit:minimum="0" spirit:maximum="26" spirit:rangeType="long">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ADDR_TAG_BITS" spirit:minimum="0" spirit:maximum="26" spirit:rangeType="long">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_CACHE_BYTE_SIZE</spirit:name>
@@ -25096,7 +25096,7 @@
       <spirit:modelParameter spirit:dataType="std_logic_vector">
         <spirit:name>C_DCACHE_HIGHADDR</spirit:name>
         <spirit:displayName>High Address</spirit:displayName>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DCACHE_HIGHADDR" spirit:bitStringLength="64">0x00000000c000ffff</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DCACHE_HIGHADDR" spirit:bitStringLength="64">0x00000000c0003fff</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_USE_DCACHE</spirit:name>
@@ -25110,7 +25110,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_DCACHE_ADDR_TAG</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DCACHE_ADDR_TAG" spirit:minimum="0" spirit:maximum="58" spirit:rangeType="long">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DCACHE_ADDR_TAG" spirit:minimum="0" spirit:maximum="58" spirit:rangeType="long">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_DCACHE_BYTE_SIZE</spirit:name>
@@ -25509,42 +25509,6 @@
   </spirit:choices>
   <spirit:fileSets>
     <spirit:fileSet>
-      <spirit:name>xilinx_externalfiles_view_fileset</spirit:name>
-      <spirit:file>
-        <spirit:name>design_1_microblaze_0_0.dcp</spirit:name>
-        <spirit:userFileType>dcp</spirit:userFileType>
-        <spirit:userFileType>USED_IN_implementation</spirit:userFileType>
-        <spirit:userFileType>USED_IN_synthesis</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>design_1_microblaze_0_0_stub.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>design_1_microblaze_0_0_stub.vhdl</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>design_1_microblaze_0_0_sim_netlist.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
-        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>design_1_microblaze_0_0_sim_netlist.vhdl</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
-        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-    </spirit:fileSet>
-    <spirit:fileSet>
       <spirit:name>xilinx_vhdlsynthesis_view_fileset</spirit:name>
       <spirit:file>
         <spirit:name>design_1_microblaze_0_0.xdc</spirit:name>
@@ -25604,6 +25568,42 @@
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_externalfiles_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>design_1_microblaze_0_0.dcp</spirit:name>
+        <spirit:userFileType>dcp</spirit:userFileType>
+        <spirit:userFileType>USED_IN_implementation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_synthesis</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_microblaze_0_0_stub.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_microblaze_0_0_stub.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_microblaze_0_0_sim_netlist.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_microblaze_0_0_sim_netlist.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
   </spirit:fileSets>
   <spirit:cpus>
     <spirit:cpu>
@@ -25654,7 +25654,7 @@ It is highly recommended to create MicroBlaze systems within Vivado IP Integrato
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>C_FREQ</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_FREQ" spirit:order="1130" spirit:configGroups="1 NoDisplay">100000000</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_FREQ" spirit:order="1130" spirit:configGroups="1 NoDisplay">50000000</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -27447,7 +27447,7 @@ It is highly recommended to create MicroBlaze systems within Vivado IP Integrato
     <spirit:parameter>
       <spirit:name>C_ICACHE_HIGHADDR</spirit:name>
       <spirit:displayName>High Address</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_ICACHE_HIGHADDR" spirit:order="3030" spirit:configGroups="3 Instruction Cache Feature" spirit:bitStringLength="64">0x00000000C000FFFF</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_ICACHE_HIGHADDR" spirit:order="3030" spirit:configGroups="3 Instruction Cache Feature" spirit:bitStringLength="64">0x00000000C0003FFF</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -27483,7 +27483,7 @@ It is highly recommended to create MicroBlaze systems within Vivado IP Integrato
     <spirit:parameter>
       <spirit:name>C_ADDR_TAG_BITS</spirit:name>
       <spirit:displayName>Set number of I-cache address tag bits</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_ADDR_TAG_BITS" spirit:order="3200" spirit:configGroups="3 NoDisplay">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_ADDR_TAG_BITS" spirit:order="3200" spirit:configGroups="3 NoDisplay">1</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -27679,7 +27679,7 @@ It is highly recommended to create MicroBlaze systems within Vivado IP Integrato
     <spirit:parameter>
       <spirit:name>C_DCACHE_HIGHADDR</spirit:name>
       <spirit:displayName>High Address</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_DCACHE_HIGHADDR" spirit:order="3130" spirit:configGroups="3 Data Cache Feature" spirit:bitStringLength="64">0x00000000C000FFFF</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_DCACHE_HIGHADDR" spirit:order="3130" spirit:configGroups="3 Data Cache Feature" spirit:bitStringLength="64">0x00000000C0003FFF</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -27715,7 +27715,7 @@ It is highly recommended to create MicroBlaze systems within Vivado IP Integrato
     <spirit:parameter>
       <spirit:name>C_DCACHE_ADDR_TAG</spirit:name>
       <spirit:displayName>Set number of D-cache address tag bits</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_DCACHE_ADDR_TAG" spirit:order="3230" spirit:configGroups="3 NoDisplay">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_DCACHE_ADDR_TAG" spirit:order="3230" spirit:configGroups="3 NoDisplay">1</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="/home/parallels/te0711_prj/vitis_workspace/qspi_bootloader_app/Debug" key="fpga_elf_mem_selection"/>
 	<item value="/home/parallels/te0711_prj" key="scw_hwspec_file_selection"/>
+	<item value="/home/parallels/te0711_prj" key="zynq_flash_files_selection"/>
 	<item value="/home/parallels/te0711_prj" key="scw_hwspec"/>
 </section>

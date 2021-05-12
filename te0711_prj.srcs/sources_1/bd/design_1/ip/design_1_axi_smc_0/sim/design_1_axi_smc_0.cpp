@@ -80,7 +80,7 @@ void design_1_axi_smc_0::before_end_of_elaboration()
   {
     xsc::common_cpp::properties S00_AXI_transactor_param_props;
     S00_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
-    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
+    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "50000000");
     S00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -161,7 +161,7 @@ void design_1_axi_smc_0::before_end_of_elaboration()
   {
     xsc::common_cpp::properties S01_AXI_transactor_param_props;
     S01_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
-    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
+    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "50000000");
     S01_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S01_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S01_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -221,9 +221,9 @@ void design_1_axi_smc_0::before_end_of_elaboration()
   {
     xsc::common_cpp::properties M00_AXI_transactor_param_props;
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
-    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
+    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "50000000");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "16");
+    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "14");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -250,7 +250,7 @@ void design_1_axi_smc_0::before_end_of_elaboration()
     M00_AXI_transactor_param_props.addString("PROTOCOL", "AXI4");
     M00_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M00_AXI_transactor_param_props.addString("CLK_DOMAIN", "/clk_wiz_1_clk_out1");
-    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,16,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
+    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,14,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
     mp_M00_AXI_transactor->AWADDR(M00_AXI_awaddr);
     mp_M00_AXI_transactor->AWLEN(M00_AXI_awlen);
     mp_M00_AXI_transactor->AWSIZE(M00_AXI_awsize);

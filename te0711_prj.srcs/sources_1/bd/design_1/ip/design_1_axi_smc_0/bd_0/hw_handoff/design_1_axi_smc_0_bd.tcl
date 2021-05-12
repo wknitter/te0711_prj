@@ -510,7 +510,7 @@ proc create_hier_cell_s01_entry_pipeline { parentCell nameHier } {
    CONFIG.SEG000_SECURE_READ {0} \
    CONFIG.SEG000_SECURE_WRITE {0} \
    CONFIG.SEG000_SEP_ROUTE {0b0000000000000000000000000000000000000000000000000000000000000000} \
-   CONFIG.SEG000_SIZE {16} \
+   CONFIG.SEG000_SIZE {14} \
    CONFIG.SEG000_SUPPORTS_READ {1} \
    CONFIG.SEG000_SUPPORTS_WRITE {1} \
    CONFIG.SUPPORTS_NARROW {0} \
@@ -982,7 +982,7 @@ proc create_hier_cell_s00_entry_pipeline { parentCell nameHier } {
    CONFIG.SEG000_SECURE_READ {0} \
    CONFIG.SEG000_SECURE_WRITE {0} \
    CONFIG.SEG000_SEP_ROUTE {0b0000000000000000000000000000000000000000000000000000000000000000} \
-   CONFIG.SEG000_SIZE {16} \
+   CONFIG.SEG000_SIZE {14} \
    CONFIG.SEG000_SUPPORTS_READ {1} \
    CONFIG.SEG000_SUPPORTS_WRITE {1} \
    CONFIG.SUPPORTS_NARROW {0} \
@@ -1440,7 +1440,7 @@ proc create_hier_cell_m00_exit_pipeline { parentCell nameHier } {
   # Create instance: m00_exit, and set properties
   set m00_exit [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_exit:1.0 m00_exit ]
   set_property -dict [ list \
-   CONFIG.ADDR_WIDTH {16} \
+   CONFIG.ADDR_WIDTH {14} \
    CONFIG.HAS_BURST {1} \
    CONFIG.HAS_LOCK {0} \
    CONFIG.IS_CASCADED {0} \
@@ -1629,7 +1629,7 @@ proc create_root_design { parentCell } {
   # Create instance: m00_sc2axi, and set properties
   set m00_sc2axi [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_sc2axi:1.0 m00_sc2axi ]
   set_property -dict [ list \
-   CONFIG.AXI_ADDR_WIDTH {16} \
+   CONFIG.AXI_ADDR_WIDTH {14} \
    CONFIG.AXI_ID_WIDTH {1} \
    CONFIG.AXI_RDATA_WIDTH {32} \
    CONFIG.AXI_WDATA_WIDTH {32} \
