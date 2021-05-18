@@ -1,6 +1,71 @@
-12:03:25 **** Incremental Build of configuration Debug for project qspi_bootloader_app ****
+08:17:50 **** Build of configuration Debug for project qspi_bootloader_app ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/bootloader.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bootloader.o" -I/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bootloader.d" -MT"src/bootloader.o" -o "src/bootloader.o" "../src/bootloader.c"
+../src/bootloader.c:135:5: warning: pointer targets in initialization of 'int8_t *' {aka 'signed char *'} from 'char *' differ in signedness [-Wpointer-sign]
+     "",
+     ^~
+../src/bootloader.c:135:5: note: (near initialization for 'errors[0]')
+../src/bootloader.c:136:5: warning: pointer targets in initialization of 'int8_t *' {aka 'signed char *'} from 'char *' differ in signedness [-Wpointer-sign]
+     "Error while copying executable image into RAM",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:136:5: note: (near initialization for 'errors[1]')
+../src/bootloader.c:137:5: warning: pointer targets in initialization of 'int8_t *' {aka 'signed char *'} from 'char *' differ in signedness [-Wpointer-sign]
+     "Error while reading an SREC line from flash",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:137:5: note: (near initialization for 'errors[2]')
+../src/bootloader.c:138:5: warning: pointer targets in initialization of 'int8_t *' {aka 'signed char *'} from 'char *' differ in signedness [-Wpointer-sign]
+     "SREC line is corrupted",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:138:5: note: (near initialization for 'errors[3]')
+../src/bootloader.c:139:5: warning: pointer targets in initialization of 'int8_t *' {aka 'signed char *'} from 'char *' differ in signedness [-Wpointer-sign]
+     "SREC has invalid checksum."
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:139:5: note: (near initialization for 'errors[4]')
+../src/bootloader.c: In function 'main':
+../src/bootloader.c:213:22: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ~~~~~~^~~~~
+In file included from ../src/bootloader.c:34:
+/tools/Xilinx/Vitis/2019.2/gnu/microblaze/lin/microblaze-xilinx-elf/include/stdio.h:250:6: note: expected 'const char *' but argument is of type 'int8_t *' {aka 'signed char *'}
+ void print (const char* );
+      ^~~~~
+../src/bootloader.c:216:22: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ~~~~~~^~~~~
+In file included from ../src/bootloader.c:34:
+/tools/Xilinx/Vitis/2019.2/gnu/microblaze/lin/microblaze-xilinx-elf/include/stdio.h:250:6: note: expected 'const char *' but argument is of type 'int8_t *' {aka 'signed char *'}
+ void print (const char* );
+      ^~~~~
+../src/bootloader.c: In function 'flash_get_srec_line':
+../src/bootloader.c:300:24: warning: assignment to 'u32' {aka 'long unsigned int'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+      ReadParam.Address = flbuf++;
+                        ^
+../src/bootloader.c:320:13: warning: implicit declaration of function 'IsfWaitForFlashNotBusy' [-Wimplicit-function-declaration]
+    Status = IsfWaitForFlashNotBusy();
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:345:28: warning: assignment to 'u32' {aka 'long unsigned int'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+          ReadParam.Address = flbuf++;
+                            ^
+Finished building: ../src/bootloader.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: qspi_bootloader_app.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "qspi_bootloader_app.elf"  ./src/bootloader.o ./src/platform.o ./src/srec.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+Finished building target: qspi_bootloader_app.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size qspi_bootloader_app.elf  |tee "qspi_bootloader_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16216	    312	   2952	  19480	   4c18	qspi_bootloader_app.elf
+Finished building: qspi_bootloader_app.elf.size
+ 
 
-12:03:25 Build Finished (took 69ms)
+08:17:50 Build Finished (took 174ms)
 

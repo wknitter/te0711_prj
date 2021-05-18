@@ -1,6 +1,6 @@
-12:03:25 **** Incremental Build of configuration Debug for project te0711_app_system ****
+08:17:50 **** Build of configuration Debug for project te0711_app_system ****
 make all 
 Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
 
-12:03:25 Build Finished (took 69ms)
+08:17:50 Build Finished (took 63ms)
 

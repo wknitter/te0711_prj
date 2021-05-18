@@ -31478,3 +31478,559 @@ TRACE::2021-05-12.11:56:05::SCWMssOS::Checking the sw design at  /home/parallels
 TRACE::2021-05-12.11:56:05::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
 
 TRACE::2021-05-12.11:56:05::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:41::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:41::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:41::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:43::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:43::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:43::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWReader::Active system found as  te0711_pltfrm
+TRACE::2021-05-18.11:17:44::SCWReader::Handling sysconfig te0711_pltfrm
+TRACE::2021-05-18.11:17:44::SCWDomain::checking for install qemu data   : 
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-05-18.11:17:44::SCWMssOS::No sw design opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::mss exists loading the mss file  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::Opened the sw design from mss  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::Adding the swdes entry /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-05-18.11:17:44::SCWMssOS::updating the scw layer about changes
+TRACE::2021-05-18.11:17:44::SCWMssOS::Opened the sw design.  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS:: library already available in sw design:  xilisf:5.14
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-05-18.11:17:44::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWReader::No isolation master present  
+LOG::2021-05-18.11:17:44::SCWPlatform::Started generating the artifacts platform te0711_pltfrm
+TRACE::2021-05-18.11:17:44::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-18.11:17:44::SCWPlatform::Started generating the artifacts for system configuration te0711_pltfrm
+LOG::2021-05-18.11:17:44::SCWSystem::Checking the domain standalone_domain
+LOG::2021-05-18.11:17:44::SCWSystem::Not a boot domain 
+LOG::2021-05-18.11:17:44::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-05-18.11:17:44::SCWDomain::Generating domain artifcats
+TRACE::2021-05-18.11:17:44::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-18.11:17:44::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:44::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:44::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::Completed writing the mss file at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp
+TRACE::2021-05-18.11:17:44::SCWMssOS::Mss edits present, copying mssfile into export location /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:44::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-18.11:17:44::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-18.11:17:44::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-05-18.11:17:44::SCWMssOS::doing bsp build ... 
+TRACE::2021-05-18.11:17:44::SCWMssOS::System Command Ran  cd  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_3/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2021-05-18.11:17:44::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2021-05-18.11:17:44::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_3/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-18.11:17:44::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-18.11:17:44::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_1/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-05-18.11:17:44::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2021-05-18.11:17:44::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/spi_v4_5/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-05-18.11:17:44::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-05-18.11:17:44::SCWMssOS::ll -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_5/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-18.11:17:44::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-18.11:17:44::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_10/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-18.11:17:44::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-18.11:17:44::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_10/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-05-18.11:17:44::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2021-05-18.11:17:44::SCWMssOS::Wall -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make include in microblaze_0/libsrc/xilisf_v5_14/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/xilisf_v5_14/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-05-18.11:17:44::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2021-05-18.11:17:44::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-05-18.11:17:44::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2021-05-18.11:17:44::SCWMssOS::Wall -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Compiling uartlite
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_3/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-18.11:17:44::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-18.11:17:44::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Compiling bram
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_1/src
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-05-18.11:17:44::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2021-05-18.11:17:44::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2021-05-18.11:17:44::SCWMssOS::Compiling standalone
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/spi_v4_5/src
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-18.11:17:45::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-18.11:17:45::SCWMssOS::-Wextra"
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Compiling spi
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/gpio_v4_5/src
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-18.11:17:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-18.11:17:45::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Compiling gpio
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_10/src
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-18.11:17:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-18.11:17:45::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Compiling cpu
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_10/src
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-05-18.11:17:45::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-05-18.11:17:45::SCWMssOS::l -Wextra"
+
+TRACE::2021-05-18.11:17:45::SCWMssOS::Compiling intc
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::Running Make libs in microblaze_0/libsrc/xilisf_v5_14/src
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::make -C microblaze_0/libsrc/xilisf_v5_14/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-18.11:17:46::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-18.11:17:46::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::Compiling XilIsf Library
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::WARNING: Xilisf library is being deprecated from 2020.1 release. It will be made obsolete in 2021.1 release.
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::please use driver examples instead.
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::Finished building libraries
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::Copying to export directory.
+TRACE::2021-05-18.11:17:46::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-05-18.11:17:46::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-05-18.11:17:46::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-05-18.11:17:46::SCWSystem::Completed Processing the sysconfig te0711_pltfrm
+LOG::2021-05-18.11:17:46::SCWPlatform::Completed generating the artifacts for system configuration te0711_pltfrm
+TRACE::2021-05-18.11:17:46::SCWPlatform::Started preparing the platform 
+TRACE::2021-05-18.11:17:46::SCWSystem::Writing the bif file for system config te0711_pltfrm
+TRACE::2021-05-18.11:17:46::SCWSystem::dir created 
+TRACE::2021-05-18.11:17:46::SCWSystem::Writing the bif 
+TRACE::2021-05-18.11:17:46::SCWPlatform::Started writing the spfm file 
+TRACE::2021-05-18.11:17:46::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-05-18.11:17:46::SCWPlatform::Completed generating the platform
+TRACE::2021-05-18.11:17:46::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:46::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:46::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:46::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:46::SCWWriter::formatted JSON is {
+	"platformName":	"te0711_pltfrm",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"te0711_pltfrm",
+	"platHandOff":	"/home/parallels/te0711_prj/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"te0711_pltfrm",
+	"systems":	[{
+			"systemName":	"te0711_pltfrm",
+			"systemDesc":	"te0711_pltfrm",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"te0711_pltfrm",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"9f5fc2db08c452fdc7d7f2b2ebafa73e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilisf:5.14"],
+					"libOptions":	{
+						"xilisf":	{
+							"serial_flash_family":	"5",
+							"libOptionNames":	["serial_flash_family"]
+						},
+						"libsContainingOptions":	["xilisf"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-05-18.11:17:46::SCWPlatform::updated the xpfm file.
+TRACE::2021-05-18.11:17:46::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:46::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:46::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-05-18.11:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-05-18.11:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:46::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:46::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:46::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWPlatform::Clearing the existing platform
+TRACE::2021-05-18.11:17:53::SCWSystem::Clearing the existing sysconfig
+TRACE::2021-05-18.11:17:53::SCWMssOS::Removing the swdes entry for  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWSystem::Clearing the domains completed.
+TRACE::2021-05-18.11:17:53::SCWPlatform::Clearing the opened hw db.
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform location is /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Removing the HwDB with name /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWReader::Active system found as  te0711_pltfrm
+TRACE::2021-05-18.11:17:53::SCWReader::Handling sysconfig te0711_pltfrm
+TRACE::2021-05-18.11:17:53::SCWDomain::checking for install qemu data   : 
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-05-18.11:17:53::SCWMssOS::No sw design opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::mss exists loading the mss file  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::Opened the sw design from mss  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::Adding the swdes entry /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-05-18.11:17:53::SCWMssOS::updating the scw layer about changes
+TRACE::2021-05-18.11:17:53::SCWMssOS::Opened the sw design.  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS:: library already available in sw design:  xilisf:5.14
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-05-18.11:17:53::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWReader::No isolation master present  
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::In reload Mss file.
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2021-05-18.11:17:53::SCWMssOS::Could not open the swdb for system
+KEYINFO::2021-05-18.11:17:53::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-05-18.11:17:53::SCWMssOS::No sw design opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::mss exists loading the mss file  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::Opened the sw design from mss  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::Adding the swdes entry /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-05-18.11:17:53::SCWMssOS::updating the scw layer about changes
+TRACE::2021-05-18.11:17:53::SCWMssOS::Opened the sw design.  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS:: library already available in sw design:  xilisf:5.14
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to open the hw design at /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA given /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA absoulate path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform::DSA directory /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Platform Path /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/hw/design_1_wrapper.xsa
+TRACE::2021-05-18.11:17:53::SCWPlatform:: Unique name xilinx:te0711_35_2c::0.0
+TRACE::2021-05-18.11:17:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2021-05-18.11:17:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-18.11:17:53::SCWMssOS::Checking the sw design at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::DEBUG:  swdes dump  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-05-18.11:17:53::SCWMssOS::Sw design exists and opened at  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2021-05-18.11:17:53::SCWMssOS::Removing the swdes entry for  /home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss

@@ -65,7 +65,6 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param xicom.use_bs_reader 1
   set_param chipscope.maxJobs 2
   open_checkpoint design_1_wrapper_routed.dcp
   set_property webtalk.parent_dir /home/parallels/te0711_prj/te0711_prj.cache/wt [current_project]

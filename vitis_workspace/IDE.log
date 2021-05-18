@@ -2997,3 +2997,20 @@ con
 11:38:19 INFO  : Checking for BSP changes to sync application flags for project 'qspi_bootloader_app'...
 12:03:24 INFO  : Checking for BSP changes to sync application flags for project 'te0711_app'...
 12:03:25 INFO  : Checking for BSP changes to sync application flags for project 'qspi_bootloader_app'...
+10:42:04 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/te0711_prj/vitis_workspace/temp_xsdb_launch_script.tcl
+10:42:06 INFO  : Registering command handlers for Vitis TCF services
+10:42:07 INFO  : XSCT server has started successfully.
+10:42:07 INFO  : Successfully done setting XSCT server connection channel  
+10:42:07 INFO  : plnx-install-location is set to ''
+10:42:07 INFO  : Successfully done setting workspace for the tool. 
+10:42:07 INFO  : Successfully done query RDI_DATADIR 
+08:11:56 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/te0711_prj/vitis_workspace/temp_xsdb_launch_script.tcl
+08:11:59 INFO  : Registering command handlers for Vitis TCF services
+08:11:59 INFO  : XSCT server has started successfully.
+08:11:59 INFO  : plnx-install-location is set to ''
+08:11:59 INFO  : Successfully done setting XSCT server connection channel  
+08:11:59 INFO  : Successfully done setting workspace for the tool. 
+08:11:59 INFO  : Successfully done query RDI_DATADIR 
+08:17:49 INFO  : Checking for BSP changes to sync application flags for project 'te0711_app'...
+08:17:50 INFO  : Checking for BSP changes to sync application flags for project 'qspi_bootloader_app'...
+08:17:53 INFO  : Successfully done sdx_reload_mss "/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/microblaze_0/standalone_domain/bsp/system.mss"

@@ -1,9 +1,14 @@
-2021-05-12T12:03:24.89434900255-12:03:24 **** Incremental Build of configuration Debug for project te0711_app ****
+2021-05-18T08:17:49.53559100255-08:17:49 **** Build of configuration Debug for project te0711_app ****
 000-make all 
 000-Building file: ../src/helloworld.c
 000-Invoking: MicroBlaze gcc compiler
 000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 000-Finished building: ../src/helloworld.c
+000- 
+000-Building file: ../src/platform.c
+000-Invoking: MicroBlaze gcc compiler
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/parallels/te0711_prj/vitis_workspace/te0711_pltfrm/export/te0711_pltfrm/sw/te0711_pltfrm/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-Finished building: ../src/platform.c
 000- 
 000-Building target: te0711_app.elf
 000-Invoking: MicroBlaze gcc linker
@@ -17,5 +22,5 @@
 000-Finished building: te0711_app.elf.size
 000- 
 00255-
-12:03:25 Build Finished (took 119ms)
+08:17:49 Build Finished (took 172ms)
 
